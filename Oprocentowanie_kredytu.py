@@ -1,0 +1,1 @@
+print ("Witamy w dziesiejszej lekcji")
