@@ -1,5 +1,5 @@
-print("Witamy w dziesiejszej lekcji \n Zacznijmy obliczanie twojego kredytu \n Podaj kwotę kredytu :")
-'''
+'''print("Witamy w dziesiejszej lekcji \n Zacznijmy obliczanie twojego kredytu \n Podaj kwotę kredytu :")
+
 TotalCreditAmount = int(input())
 print("Nastepnie miesieczna rate :")
 Rata = int(input())
@@ -14,6 +14,8 @@ print("Czas spłaty twojego kredytu nie uwzgledniajac inflacji to %s miesiecy \n
 print("Czas spłaty twojego kredytu nie uwzgledniajac inflacji to {} miesiecy \nKwota Ostaniej raty to\t {}" .format(TimeToPay, LastPart)) #Drugi sposób formatowania Tekstu
 
 print(f'Czas spłaty twojego kredytu nie uwzgledniajac inflacji to {TimeToPay} miesiecy \nKwota Ostaniej raty to\t {LastPart}') #Najnowszy i zalecany sposób
+'''
+
 '''
 #Zadanie
 #Pobieram kwote kredytu
@@ -57,3 +59,19 @@ inf22 , m22 , k22 = 1.165733399, (1+((inf2 + 3) / 1200) * m21 - loan_rate) , tot
 inf23 , m23 , k23 = - 0.404186718, (1+((inf2 + 3) / 1200) * m22 - loan_rate) , total_credit_amount - m23
 inf24 , m24 , k24 = 1.499708521, (1+((inf2 + 3) / 1200) * m23 - loan_rate) , total_credit_amount - m24
 print (k24)
+
+'''
+
+#Zajęcia z pętli
+'''
+age = 25
+if age >= 18:
+    print("osoba pelnoletnia")
+'''
+price = 0
+person_age = input("Podaj wiek: ")
+# age < 5: 0, age >= 5 and age <= 17: 20, age >= 18:30
+if age <5:
+    price = 0
+print(price)
+
